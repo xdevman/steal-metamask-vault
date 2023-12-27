@@ -6,7 +6,7 @@ import getpass
 sys_username = getpass.getuser()
 
 def upload_logs_to_server(logs_directory, token, sys_username):
-    url = 'http://IP:5000/your_secret_token/upload'  # Set IP address
+    url = 'http://your_server_ip:5000/your_secret_token/upload'  # Set IP address
     headers = {'Authorization': token}
 
     log_files = [f for f in os.listdir(logs_directory) if f.endswith('.log')]
