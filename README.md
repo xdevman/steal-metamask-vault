@@ -1,5 +1,5 @@
 # steal-metamask-vault
-vault extractor on **chrome & brave browser**
+vault extractor on **chrome & brave browser**. For more detailed information, you can read [my blog post](https://sobhan.hashnode.dev/security-exploration-of-metamask-introducing-and-using-the-metamaskvaultextractor-script) dedicated to this project.
 ## Server
 
 ### Usage
